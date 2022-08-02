@@ -1,4 +1,3 @@
-import PageObjects.Locators.MainPageLoc;
 import TestBase.TestsSetup;
 import org.testng.Assert;
 import org.testng.annotations.*;
