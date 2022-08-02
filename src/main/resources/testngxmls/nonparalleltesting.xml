@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Tests (full pack)" parallel="false" configfailurepolicy="continue">
+    <test name="First Test" preserve-order="true" enabled="true">
+        <parameter name="Test1" value="1"/>
+        <classes>
+            <class name="ChromeMainPageTests" />
+        </classes>
+    </test>
+</suite>
